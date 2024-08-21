@@ -20,21 +20,22 @@ public class MainProgram {
 		System.out.println(user.calculateBMI(userHeightInMetersSquared2, userWeight));
 		double bmi2 = user.calculateBMI(userHeightInMetersSquared2, userWeight);
 		user.printBMIReading(bmi2);
-//		if(bmi2 <= 18.5) {
-//			System.out.println(userName + " " + "is underweight");
-//		}
-//		else if(bmi2 >= 18.5 && bmi2 <= 24.9) {
-//			System.out.println(userName + " " + "has normal weight");
-//		}
-//		else if(bmi2 >= 25.0 && bmi2 <= 29.9) {
-//			System.out.println(userName + " " + "is overweight");
-//		}
-//		else if(bmi2 >= 30.0 && bmi2 <= 40.0) {
-//			System.out.println(userName + " " + "is obese");
-//		}
-//		else {
-//			System.out.println(userName + " " + "Seek urgent help from your nutritionist");
-//		}
+		if(bmi2 <= 18.5) {
+			System.out.println(userName + " " + "is underweight");
+		}
+		else if(bmi2 >= 18.5 && bmi2 <= 24.9) {
+			System.out.println(userName + " " + "has normal weight");
+		}
+		else if(bmi2 >= 25.0 && bmi2 <= 29.9) {
+			System.out.println(userName + " " + "is overweight");
+		}
+		else if(bmi2 >= 30.0 && bmi2 <= 40.0) {
+			System.out.println(userName + " " + "is obesity");
+		}
+		else {
+			System.out.println(userName + " " + "Seek urgent help from your nutritionist.");
+		}
+		System.out.println("Remember your health is your wealthy, with regards from Dr.Cranmar Kyambadde");
 
 
 
